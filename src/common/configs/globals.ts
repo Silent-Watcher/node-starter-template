@@ -1,5 +1,6 @@
+import path from 'node:path';
+
 export default Object.freeze({
-	development: {
-		PORT: process.env.PORT,
-	},
+	PORT: process.env.PORT,
+	ENV_FILE_PATH: path.join(process.cwd(), '.env'),
 });

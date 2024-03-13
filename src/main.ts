@@ -1,11 +1,3 @@
-import { config as configEnv } from 'dotenv-safe';
+import './validations/env';
 
-function bootstrap() {
-	try {
-		configEnv({ path: '../.env' });
-	} catch (error) {
-		console.error((error as Error).message);
-		process.exit(1);
-	}
-}
-bootstrap();
+console.log('hello world');
