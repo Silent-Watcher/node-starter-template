@@ -1,5 +1,5 @@
 {
-	"cSpell.words": ["commitlint", "gitmoji", "Parens"],
+	"cSpell.words": ["commitlint", "gitmoji", "packagejson", "Parens"],
 	"testing.openTesting": "neverOpen",
 	"jest.outputConfig": {
 		"revealOn": "run",

@@ -27,9 +27,9 @@
 
 ### Changes to Core Features:
 
--   [ ] Have you added an explanation of what your changes do and why you'd like us to include them?
--   [ ] Have you written new tests for your core changes, as applicable?
--   [ ] Have you successfully run tests with your changes locally?
+- [ ] Have you added an explanation of what your changes do and why you'd like us to include them?
+- [ ] Have you written new tests for your core changes, as applicable?
+- [ ] Have you successfully run tests with your changes locally?
 
 ## How Has This Been Tested?
 
@@ -39,15 +39,15 @@
 
 Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
--   [ ] Test A
--   [ ] Test B
+- [ ] Test A
+- [ ] Test B
 
 **Test Configuration**:
 
--   Firmware version:
--   Hardware:
--   Toolchain:
--   SDK:
+- Firmware version:
+- Hardware:
+- Toolchain:
+- SDK:
 
 ## Screenshots (if applicable)
 
@@ -57,14 +57,14 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 <!--- Mark the relevant checkboxes using "x" to indicate completion -->
 
--   [ ] I have performed a self-review of my own code
--   [ ] I have commented my code, particularly in hard-to-understand areas
--   [ ] I have made corresponding changes to the documentation (if applicable)
--   [ ] My changes generate no new warnings or errors
--   [ ] I have added tests that prove my fix is effective or that my feature works
--   [ ] The code follows the project's coding guidelines and style
--   [ ] I have tested the changes locally before pushing them
--   [ ] Any dependent changes have been merged and published in downstream modules (if applicable)
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation (if applicable)
+- [ ] My changes generate no new warnings or errors
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] The code follows the project's coding guidelines and style
+- [ ] I have tested the changes locally before pushing them
+- [ ] Any dependent changes have been merged and published in downstream modules (if applicable)
 
 ## Additional Notes
 

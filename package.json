@@ -1,22 +1,27 @@
 {
 	"version": "0.0.0",
 	"main": "src/main.ts",
-	"engines": {
-		"node": "v20.11.0"
-	},
-	"engineStrict": true,
 	"scripts": {
 		"build": "rimraf ./dist && tsc -p tsconfig.prod.json",
-		"prestart": "npm run build",
-		"start": "node dist/main.js",
-		"serve": "nodemon -q ",
 		"prelint": "npx prettier . --write",
 		"lint": "tsc --noEmit && eslint .",
 		"lint:fix": "tsc --noEmit && eslint --fix .",
+		"prepare": "husky",
+		"serve": "nodemon -q ",
+		"prestart": "npm run build",
+		"start": "node dist/main.js",
 		"test": "jest",
-		"test:watch": "jest --watch",
 		"test:coverage": "jest --coverage",
-		"prepare": "husky"
+		"test:watch": "jest --watch"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-emoji",
+			"conventional": true
+		}
+	},
+	"dependencies": {
+		"dotenv-safe": "^9.1.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.1.0",
@@ -40,6 +45,7 @@
 		"lint-staged": "^15.2.2",
 		"nodemon": "^3.1.0",
 		"prettier": "^3.2.5",
+		"prettier-plugin-packagejson": "^2.4.12",
 		"rimraf": "^5.0.5",
 		"ts-jest": "^29.1.2",
 		"ts-node": "^10.9.2",
@@ -48,13 +54,8 @@
 		"zod": "^3.22.4",
 		"zod-validation-error": "^3.0.3"
 	},
-	"dependencies": {
-		"dotenv-safe": "^9.1.0"
+	"engines": {
+		"node": "v20.11.0"
 	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-emoji",
-			"conventional": true
-		}
-	}
+	"engineStrict": true
 }
