@@ -1,0 +1,14 @@
+name: 'Node.js Vulnerabilities'
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  is-my-node-vulnerable:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check Node.js
+        uses: RafaelGSS/is-my-node-vulnerable@v1.2.0
+        with:
+          node-version: 'v21.7.1'

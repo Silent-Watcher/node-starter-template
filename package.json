@@ -55,7 +55,7 @@
 		"zod-validation-error": "^3.0.3"
 	},
 	"engines": {
-		"node": "v20.11.0"
+		"node": "v21.7.1"
 	},
 	"engineStrict": true
 }
